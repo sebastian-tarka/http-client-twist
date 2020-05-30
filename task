@@ -1,0 +1,44 @@
+Ewa Szafrańska <ewa.szafranska@merce.com>
+
+czw., 16 kwi, 11:30
+
+do mnie
+Cześć,
+w nawiązaniu do wiadomości na LinkedIn przesyłam treść zadania rekrutacyjnego. Proszę bardzo żebyś sam określił do kiedy będziesz w stanie to zadanie wykonać.
+
+ZADANIE:
+
+Zadanie podzieliliśmy na dwie części, jednak realizację prosimy w 1 paczce lub na github.
+
+Część 1:
+W tej części skupimy się na stworzeniu biblioteki klienta REST.
+
+Cel:
+Klient powinien obsługiwać wszystkie możliwe metody do wykonania (GET, POST, …). Jego budowa powinna pokazać Twoje umiejętności budowania dobrej, spójnej i czystej architektury aplikacji. Klient ten powinien być napisany w takiej postaci jak biblioteki dostępne publicznie - tak aby można było go użyć jako paczka w dowolnym projekcie. Zależy nam na czystym SOLID’nym kodzie, niekoniecznie działającym, ale niezawierającym zbędnych rzeczy.
+Autoryzacja: biblioteka powinna móc umożliwiać co najmniej 2 podstawowe sposoby autoryzacji: Basic, JWT - jeżeli chcesz dopisz kolejne :)
+Wymagania:
+
+    OOP PHP 7.3+
+    PSR-4
+    PSR-7 - nie implementuj - skorzystaj z gotowca :)
+    Klient oparty o curl
+    Możesz używać dowolnych libek i rozwiązań poza tymi adaptującymi np. curl (patrz ograniczenia)
+    Kod powinien być w 100% autorski
+
+Ograniczenia:
+
+    prosimy nie używać gotowych adapterów typu “GuzzleHttp”
+    nie chcemy GUI
+
+Mile widziane:
+
+    testy (dowolność - jednak prosimy o opis zastosowanej metodyki i uzasadnienie jej wyboru)
+
+
+
+Część 2:
+ 	Na dowolnym publicznym API wykorzystaj swoją bibliotekę, modelując żądania i/lub odpowiedzi oraz obsługę ewentualnych błędów
+
+Ograniczenia:
+
+    zależy nam na przykładzie, a nie na kompleksowej obsłudzę wybranego przez Ciebie API, wybierz maksymalnie do 3 endpointów
